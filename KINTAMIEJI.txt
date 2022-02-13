@@ -1,4 +1,5 @@
 NAME        FROM                            TILL
+
 byte		-128				            128
 short       -32 768                         32 767
 int         -2 147 483 648                  -2 147 483 647
