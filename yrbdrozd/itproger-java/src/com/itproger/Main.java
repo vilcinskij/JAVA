@@ -7,6 +7,7 @@ public class Main {
 
         int age;
         age = 56;
+        System.out.println(age);
     }
 
 }
