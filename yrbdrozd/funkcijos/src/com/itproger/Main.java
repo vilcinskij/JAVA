@@ -9,6 +9,9 @@ public class Main {
         info(java);
         info("");
 
+        int num = 7;
+        summa(5, num);                                                      // "a:" ir "b:" ATSIRANDA AUTOMATIŠKAI!!!
+
     }
 
     public static void summa(int a, int b) {                                  //short, arba int, arba byte....
