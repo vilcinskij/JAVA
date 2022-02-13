@@ -4,13 +4,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        info();
+        info( "Hello");                                                     //'word' ATSIRANDA AUTOMATIŠKAI!!!
         info();
         info();
 
     }
 
-    public static void info() {                                        //info - betkoks pavadinimias
-        System.out.println("Hello");
+    public static void info(String word) {                                        //info - betkoks pavadinimias, word - betkoks pavadinimias
+        System.out.print(word);
+        System.out.println("!");
     }
 }
