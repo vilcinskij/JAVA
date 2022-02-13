@@ -16,6 +16,7 @@ public class Main {
         } else {
             System.out.println("Sveikas, įvesk skaičiu nuo 1 iki 5");
             int num = scanner.nextInt();
+//            switch & case daugkartinis IF ELSE
             switch (num) {
                 case 1:
                     System.out.println("Skaičius vienas");
@@ -32,6 +33,9 @@ public class Main {
                 case 5:
                     System.out.println("Skaičius penki");
                     break;
+                default:
+//                    default kaip ELSE, gali ir nebūti, galima ir nerašyti breake
+                    System.out.println("Default");
             }
         }
     }
