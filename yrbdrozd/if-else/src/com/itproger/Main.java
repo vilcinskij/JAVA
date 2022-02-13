@@ -8,7 +8,9 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Įveskite vartotojo tipą");
         String role = scanner.nextLine();
-        if (role.equals("Admin")) {
+        System.out.println("Įveskite slaptažodi");
+        String pass = scanner.nextLine();
+        if (role.equals("Admin") && pass.equals("Admin")) {
 //            .equals naudojama tik su String, vietoj ==
             System.out.println("Visi vartotojai");
         } else {
