@@ -4,3 +4,11 @@ byte		-128				            128
 short       -32 768                         32 767
 int         -2 147 483 648                  -2 147 483 647
 long        -9 223 327 036 854 775 808      -9 223 327 036 854 775 807
+
+float       4,54512656f
+double      4,56564546565484465216844565616
+
+char        's'           vieno simbolio stringas, tarp viengubų kabučių
+String      "string"            stringas, tarp dvigubų kabučių
+
+boolean     true/false
