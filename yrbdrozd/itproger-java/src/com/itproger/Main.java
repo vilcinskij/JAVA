@@ -1,13 +1,10 @@
 package com.itproger;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Duomenys");
-
-        int age;
-        age = 56;
-        System.out.println(age);
     }
 
 }
