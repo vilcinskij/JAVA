@@ -13,11 +13,19 @@ public class Main {
 //        byte num2 = scan.nextByte();
 //        boolean b = scan.nextBoolean();
 
-        int num1 = 50, num2 = 33;
-        float res = num1 % num2;
-
-        res *= 10;
-        System.out.println("Rezultatas: " + res);
+//        int num1 = 50, num2 = 33;
+//        float res = num1 % num2;
+//
+//        res *= 10;
+//        res--;
+        System.out.println("Įveskite pirmą skaičių");
+        float sk1 = scan.nextInt();
+        System.out.println("Įveskite antrą skaičių");
+        float sk2 = scan.nextInt();
+        float sum = sk1 + sk2;
+        float sand = sk1 * sk2;
+        System.out.println("Skaičių suma yra: " + sum);
+        System.out.println("Skaičių sandauga yra: " + sand);
     }
 
 }
