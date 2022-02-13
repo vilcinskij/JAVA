@@ -14,7 +14,25 @@ public class Main {
 //            .equals naudojama tik su String, vietoj ==
             System.out.println("Visi vartotojai");
         } else {
-            System.out.println("Sveikas, koks tavo vardas?");
+            System.out.println("Sveikas, įvesk skaičiu nuo 1 iki 5");
+            int num = scanner.nextInt();
+            switch (num) {
+                case 1:
+                    System.out.println("Skaičius vienas");
+                    break;
+                case 2:
+                    System.out.println("Skaičius du");
+                    break;
+                case 3:
+                    System.out.println("Skaičius trys");
+                    break;
+                case 4:
+                    System.out.println("Skaičius keturi");
+                    break;
+                case 5:
+                    System.out.println("Skaičius penki");
+                    break;
+            }
         }
     }
 }
