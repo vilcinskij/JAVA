@@ -15,6 +15,7 @@ public class Main {
         System.out.println(numbers.get(1));
 
         numbers.remove(1);                  //Elemento šalinimas pagal indekso numerį
+        numbers.clear();                          //Visiškas sąrašo valymas
 
         for(Integer i : numbers) {
             System.out.println(i);
