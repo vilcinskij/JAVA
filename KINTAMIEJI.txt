@@ -12,3 +12,11 @@ char        's'           vieno simbolio stringas, tarp viengubų kabučių
 String      "string"            stringas, tarp dvigubų kabučių
 
 boolean     true/false
+
+
+
+OPERATORIAI
+
+if
+else
+switch + case
