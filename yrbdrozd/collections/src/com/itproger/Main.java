@@ -6,7 +6,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        ArrayList<Byte> numbers = new ArrayList<>();
+        ArrayList<Integer> numbers = new ArrayList<>();
+        numbers.add(5);
+        numbers.add(50);
 
+        for(Integer i : numbers) {
+            System.out.println(i);
+        }
     }
 }
