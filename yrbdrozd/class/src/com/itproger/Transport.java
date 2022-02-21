@@ -7,8 +7,9 @@ public class Transport {
     public String color;
     public byte[] coordinate;
 
-    public Transport() {
-
+    public Transport(float _speed, int _weight, String _color, byte[] _coordinate) {
+        System.out.println("Object created");
+        setValues(_speed, _weight, _color, _coordinate);
     }
 
     public void setValues(float _speed, int _weight, String _color, byte[] _coordinate) {

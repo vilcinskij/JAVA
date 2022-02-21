@@ -4,8 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Transport bmw = new Transport();
-        bmw.setValues(250.5f, 2500, "White", new byte[] {0, 0, 0});
+        Transport bmw = new Transport(250.5f, 2500, "White", new byte[] {0, 0, 0});
+//        bmw.setValues();
         String res1 = bmw.getValues();
         System.out.println(res1);
 //        bmw.speed = 250.5f;
