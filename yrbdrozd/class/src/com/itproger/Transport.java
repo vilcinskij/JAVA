@@ -10,6 +10,7 @@ public class Transport {
     public Transport(float _speed, int _weight, String _color, byte[] _coordinate) {
         System.out.println("Object created");
         setValues(_speed, _weight, _color, _coordinate);
+        System.out.println(getValues());
     }
 
     public void setValues(float _speed, int _weight, String _color, byte[] _coordinate) {
