@@ -7,6 +7,8 @@ public class Transport {
     public String color;
     public byte[] coordinate;
 
+    public Transport()
+
     public void setValues(float _speed, int _weight, String _color, byte[] _coordinate) {
         speed = _speed;
         weight = _weight;
