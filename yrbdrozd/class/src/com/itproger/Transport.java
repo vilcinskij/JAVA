@@ -13,7 +13,9 @@ public class Transport {
         System.out.println(getValues());
     }
 
-    public Transport()
+    public Transport(int _weight, byte[] _coordinate) {
+        
+    }
 
     public void setValues(float _speed, int _weight, String _color, byte[] _coordinate) {
         speed = _speed;
