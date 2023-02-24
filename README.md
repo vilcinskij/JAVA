@@ -1,3 +1,3 @@
-# JAVA++
+# JAVA
 JAVA Studing-Drzd
 
